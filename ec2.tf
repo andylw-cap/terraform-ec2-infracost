@@ -5,6 +5,7 @@ resource "aws_instance" "aw-testhost" {
 
   tags = {
      Name = "cpt-infracost-demo"
+ }
 }
 
 data "aws_ami" "ubuntu" {
