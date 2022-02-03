@@ -1,5 +1,5 @@
 resource "aws_instance" "aw-testhost" {
-  instance_type     = "t2.large"
+  instance_type     = "t2.small"
   ami           = data.aws_ami.ubuntu.id
   availability_zone = "eu-west-2a"
 
